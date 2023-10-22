@@ -204,10 +204,6 @@ img {
   margin-top: 0;
 }
 
-.row > .sm-12 {
-  grid-column: span 12;
-}
-
 .testemunho_card {
   display: flex;
   gap: 1rem;
@@ -230,6 +226,10 @@ img {
     flex-direction: row;
     text-align: left;
   }
+}
+
+.row > .sm-12 {
+  grid-column: span 12;
 }
 
 /* md */
@@ -439,7 +439,7 @@ img {
   transform: rotate(45deg);
 }
 
-.menu-btn:focus:focus-visible+.menu-icon{
+.menu-btn:focus:focus-visible + .menu-icon {
   outline: 2px solid black;
   outline-offset: 3px;
 }
