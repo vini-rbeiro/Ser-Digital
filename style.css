@@ -102,6 +102,12 @@ h2 {
   outline-offset: 2px;
 }
 
+.separate{
+  width: 1px;
+  height: 20px;
+  background-color: black;
+}
+
 img {
   max-width: 100%;
 }
