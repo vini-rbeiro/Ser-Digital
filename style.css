@@ -93,6 +93,15 @@ h2 {
   background-color: var(--primary-color-dark);
 }
 
+.link-hover:hover {
+  color: #a6bcde;
+}
+
+.link-hover:focus {
+  outline: #a6bcde 2px solid;
+  outline-offset: 2px;
+}
+
 img {
   max-width: 100%;
 }
